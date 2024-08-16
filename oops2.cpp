@@ -96,8 +96,8 @@ int StudentDatabase::studentCount = 0;
 int main() {
     StudentDatabase db;
  
-    db.addStudent("John Doe", 1, "10th Grade", 'A', "2000-01-01", "O+", "123 Main St", "555-1234", "DL123456");
-    db.addStudent("Jane Smith", 2, "11th Grade", 'B', "1999-02-02", "A+", "456 Elm St", "555-5678", "DL654321");
+    db.addStudent("Ayush", 1, "SE Comp", 'B', "2005-12-25", "AB+", "Virgin Island", "6969696969", "Not Permitted(have porche)");
+    db.addStudent("Daksh", 2, "Se Comp", 'B', "1995-10-12", "B+", "Wednesday peth", "4204204200", "No Car(Broke)");
  
     std::cout << "Total number of students: " << StudentDatabase::getStudentCount() << std::endl;
  
